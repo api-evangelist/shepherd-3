@@ -1,7 +1,14 @@
 aid: shepherd-3
 name: Shepherd 3
-description: Shepherd 3 is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Shepherd is a Y Combinator-backed (W21) insurtech modernizing commercial
+  insurance for the construction and renewable energy sectors. Using technology
+  and data-driven underwriting, it delivers faster decisions and clearer risk
+  insights across Primary Casualty, Excess Casualty, and Builder's Risk coverage
+  for middle-market to enterprise builders and operators. As of this enrichment
+  pass Shepherd does not publish a public developer API, SDKs, MCP server, or a
+  developer portal — this profile captures the company identity and public web
+  properties only.
 url: https://raw.githubusercontent.com/api-evangelist/shepherd-3/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,49 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://cdn.prod.website-files.com/6941fd8f651ca29cd5bc3597/6967fcaec4a604c140d2daf8_Frame%202147227436.jpg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Construction
+- Renewable Energy
+- Underwriting
+- Risk Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/shepherd-3-domain-security.yml
+- type: Website
+  url: https://www.shepherdinsurance.com/
+- type: Blog
+  url: https://www.shepherdinsurance.com/blog
+- type: Support
+  url: https://www.shepherdinsurance.com/contact
+- type: About
+  url: https://www.shepherdinsurance.com/about
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
